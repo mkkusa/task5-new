@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  padding-left: 52px;
+  padding-right: 52px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+aside {
+  display: flex;
+  padding-left: 52px;
+  padding-right: 52px;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+h4 {
+  margin-top: 80px;
+  margin-bottom: 4px;
+  color: rgba(40, 40, 40, 1);
+  font-size: 16px;
+  font-weight: 600px;
+}
+h1 {
+  margin-bottom: 16px;
+  color: rgba(40, 40, 40, 1);
+  font-size: 54px;
+  font-weight: 600;
+}
+
+h3 {
+  color: rgba(95, 105, 128, 1);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+div {
+  width: 310px;
+  height: fit-content;
+  border: 1px solid rgba(234, 236, 240, 1);
+  margin-right: 12px;
+}
+dfn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.profileImg {
+  width: 310px;
+  height: 230px;
+  margin-bottom: 16px;
+}
+h2 {
+  margin-bottom: 4px;
+  color: rgba(40, 40, 40, 1);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+h5:first-of-type {
+  margin-bottom: 5px;
+  color: rgba(62, 62, 89, 1);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+h5:last-of-type {
+  margin-bottom: 24px;
+  color: rgba(95, 105, 128, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+.icones {
+  width: 140px;
+  gap: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  left: 0;
+  right: 0;
+  background-color: rgba(83, 83, 83, 0.33);
+  padding: 108px 52px 130px 128px;
+}
+
+.first-paragraph {
+  color: rgba(83, 83, 83, 1);
+}
+
+div p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+div ul li {
+  list-style-type: none;
+  padding-bottom: 15px;
+  color: rgba(83, 83, 83, 1);
+  cursor: pointer;
+}
+
+.name {
+  padding-bottom: 70px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+div {
+  text-align: center;
+  border-style: none;
+}
+
+div button {
+  width: 80px;
+  height: 45px;
+  background-color: rgba(5, 74, 104, 1);
+  padding: 14px, 16px, 14px, 16px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.section1 {
+  width: 318px;
+  height: 221px;
+  text-align: start;
+}
+
+.section2 {
+  width: 336px;
+  height: 223px;
+  text-align: start;
+  margin-left: 144px;
+  margin-right: 164px;
+}
+
+.section3 {
+  margin-right: 147px;
+  text-align: start;
+}
+
+.social-media {
+  width: 104px;
+  cursor: pointer;
+}
+
+.icones {
+  width: 270px;
+  gap: 24px;
+}
